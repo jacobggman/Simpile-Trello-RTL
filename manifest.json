@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "simple-trello-rtl",
+    "version": "1.0.0",
+    "content_scripts": [
+      {
+        "matches": ["https://trello.com/*"],
+        "js": ["Content.js"]
+      }
+    ]
+}
